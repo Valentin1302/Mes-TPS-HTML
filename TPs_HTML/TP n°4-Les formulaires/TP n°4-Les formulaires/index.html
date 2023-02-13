@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice sur les formulaires</title>
+</head>
+
+<body>
+    <h1>Gautier Valentin&nbsp;-&nbsp;Les formulaires</h1>
+    <h2>Mon premier formulaire</h2>
+    <form>
+        <input type="radio" id="Homme" name="selection" value="Homme">
+        <label for="Homme">Homme</label>
+        <input type="radio" id="Femme" name="selection" value="Femme">
+        <label for="Femme">Femme</label>
+        <input type="Radio" id="Non-renseigné" name="Selection" value="Non-renseigné">
+        <label for="Non-renseigné">Non renseigné</label>
+        <div>
+            <label for="Nom">Nom:</label>
+            <input type="text" name="Information" id="Nom">
+        </div>
+        <div>
+            <label for="Prénom">Prénom:</label>
+            <input type="text" name="Information" id="Prénom">
+        </div>
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" name="Information" id="Age" min="16" max="99">
+        </div>
+        <div>
+            <label for="e-mail">E Mail:</label>
+            <input type="text" name="mail" id="e-mail">
+        </div>
+        <div>
+            <label for="Message">Message:</label>
+            <textarea id="Message" name="Message" rows="5" cols="20">Message</textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="Condition" name="Condition" checked>
+            <label for="Condition">En cochant cette case j'accepte les conditions<br> relatives à l'utilisation de mes
+                données personelles.<br> (accéder aux mentions légales)</label>
+        </div>
+        <input type="Submit" value="Envoyez le message">
+    </form>
+    <hr>
+
+
+    <h2>Ensemble de champs</h2>
+    <form>
+        <fieldset>
+            <legend>Mon second formulaire</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Identité</legend>
+            <input type="radio" id="Homme" name="selection" value="Homme">
+            <label for="Homme">Homme</label>
+            <input type="radio" id="Femme" name="selection" value="Femme">
+            <label for="Femme">Femme</label>
+            <input type="Radio" id="Non-renseigné" name="Selection" value="Non-renseigné">
+            <label for="Non-renseigné">Non renseigné</label>
+            <div>
+                <label for="Nom">Nom:</label>
+                <input type="text" name="Information" id="Nom">
+            </div>
+            <div>
+                <label for="Prénom">Prénom:</label>
+                <input type="text" name="Information" id="Prénom">
+            </div>
+            <div>
+                <label for="Age">Age:</label>
+                <input type="number" name="Information" id="Age" min="16" max="99">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Situation personelle</legend>
+            <input type="radio" id="Célibataire" name="selection" value="Célibataire">
+            <label for="Célibataire">Célibataire</label>
+            <input type="radio" id="Marié" name="selection" value="Marié">
+            <label for="Marié">Marié</label>
+            <input type="radio" id="Veuf" name="selection" value="Veuf">
+            <label for="Veuf">Veuf</label>
+            <input type="radio" id="Union Libre" name="selection" value="Union libre">
+            <label for="Union libre">Union libre</label>
+        </fieldset>
+        <fieldset>
+            <legende>Contact</legende>
+            <div>
+                <label for="Téléphone">Téléphone</label>
+                <input type="text" name="Exercices" id="Téléphone">
+                <label for="email">email</label>
+                <input type="text" name="Exercices" id="email">
+            </div>
+            <div>
+                <input type="checkbox" id="Condition" name="Condition" checked>
+                <label for="Condition">En cochant cette case je confirme que les données renseignées sont
+                    exactes</label>
+            </div>
+            <input type="Submit" value="Transmettre mes coordonées">
+        </fieldset>
+        <fieldset>
+            <legend>Question n°4 Cochez le nom des attributs qui peuvent etre associés à n'importe quel élément HTML</legend>
+        </fieldset>
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
